@@ -79,6 +79,7 @@ Page({
       content: e.detail.value
     })
     inputVal = '';
+    console.log(e.detail.value);
     this.setData({
       msgList,
       inputVal
